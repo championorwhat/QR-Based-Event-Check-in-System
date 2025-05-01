@@ -45,16 +45,6 @@ A backend system for managing college event check-ins using QR codes. It allows 
   - QR getting Emailed to registered participant
   - Admin data access
 
----
-
-## 📸 Screenshots
-
-> Add the following screenshots (optional but highly recommended):
-- 🔐 User registration/login (Postman)
-- 📅 Event creation (Postman)
-- 📲 Registration & QR code response
-- ✅ Successful QR scan check-in
-- 📊 Admin data views
 
 ---
 
