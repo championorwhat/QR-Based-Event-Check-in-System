@@ -61,8 +61,8 @@ A backend system for managing college event check-ins using QR codes. It allows 
 ## 📦 API Endpoints
 
 ### Auth
-- `POST /auth/register` – Register new user
-- `POST /auth/login` – Login and receive JWT token
+- `POST /user/register` – Register new user
+- `POST /user/login` – Login and receive JWT token
 
 ### Events
 - `POST /events/` – Create a new event (Admin only)
