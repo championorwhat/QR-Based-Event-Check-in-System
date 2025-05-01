@@ -47,8 +47,8 @@ import base64
 # SMTP Configuration
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
-EMAIL_ADDRESS = "codingupta@gmail.com"  # your email
-EMAIL_PASSWORD = "pkvd ssrv zwnz lvky"  # app password if using Gmail
+EMAIL_ADDRESS = "Enter your Email"  # your email
+EMAIL_PASSWORD = "Enter your APP Password"  # app password if using Gmail
 
 def send_email_with_qr_code(to_email: str, qr_code_base64: str, registration_id: str):
     print("Sending email to:", to_email)
