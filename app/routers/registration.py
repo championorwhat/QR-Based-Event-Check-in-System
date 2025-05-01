@@ -216,7 +216,7 @@ async def register_for_event(
 
             # Send email with QR code attached
             try:
-                send_email_with_qr_code("example@gmail.com", qr_code_base64, registration_id)
+                send_email_with_qr_code("example@test.com", qr_code_base64, registration_id)
             except Exception as e:
                 print(f"Error sending email: {e}")
                 raise HTTPException(status_code=500, detail="Failed to send registration email")
